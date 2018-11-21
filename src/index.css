@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(254, 228, 221);
+  background-repeat: no-repeat;
+  font-size: 100%;
+}
+
+.container {
+  display: grid;
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-rows: auto 50% auto auto;
+  background: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, .05); */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 1.5rem;
+  color: rgb(118, 30, 214);
+  font-weight: bolder;
+}
+
+.container-session, .container-break {
+  float: left;
+  width: 50%;
+}
+
+input, .container-display, .container-control, .container-session, .container-break {
+  text-align: center;
+}
+
+input {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  border: none;
+  color: rgb(118, 30, 214);
+}
+
+::placeholder {
+  color: rgb(118, 30, 214);
+}
+
+.container-display {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#time-label {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+#time-left {
+  font-size: 4rem;
+}
+
+.container-control .play, .container-control .reset {
+  font-size: 4rem;
+  padding: 0 2rem;
+}
+
+.container-settings {
+  margin-top: 2rem;
+  color: grey;
+}
+
+.material-icons {
+  line-height: 3rem;
+  font-size: 2rem;
+  padding: 0 .625rem;
+}
+
+#session-length, #break-length {
+  font-size: 1.2rem;
+}
+
+.material-icons, #session-length, #break-length {
+  vertical-align: middle;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 960px) {
+  .container-outer {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .container {
+    grid-template-rows: 20% 40% 20% auto;
+    height: 60vh;
+    width: 90%;
+  }
+  input {
+    font-size: 1rem;
+  }
+  #time-label {
+    font-size: .8rem;
+    margin-bottom: .8rem;
+  }
+  #time-left {
+    font-size: 3rem;
+  }
+  .container-control .play, .container-control .reset {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .container-display {
+    margin-top: 1rem;
+  }
+  #session-label, #break-label {
+    font-size: .7rem;
+  }
+  .container-settings .material-icons {
+    font-size: 1rem;
+    padding: 0 .5rem;
+  }
+  #session-length, #break-length {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+}
+
+/* .container {
+  width: 350px;
+  margin: 50px auto;
+}
+
+.container-settings {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container-display {
+  clear: both;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.container-session, .container-break {
+  width: 50%;
+  text-align: center;
+}
+
+.container-session, .container-break {
+  float: left;
+}
+
+#time-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#time-left {
+  font-size: 50px;
+}
+
+.container-control {
+  text-align: center;
+}
+
+.play {
+  padding-right: 100px;
+}
+
+.play, .reset {
+  font-size: 50px;
+} */
