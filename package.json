@@ -1,6 +1,6 @@
 {
   "name": "pomodoro",
-  "homepage": "http://atangyj.github.io/react/random-quote",
+  "homepage": "http://atangyj.github.io/random-quote",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
