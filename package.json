@@ -1,6 +1,6 @@
 {
-  "name": "pomodoro",
-  "homepage": "http://atangyj.github.io/random-quote",
+  "name": "fitness-timer",
+  "homepage": "http://atangyj.github.io/fitness-timer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
