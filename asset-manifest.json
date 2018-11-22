@@ -1,13 +1,13 @@
 {
-  "main.css": "/random-quote/static/css/main.184db483.chunk.css",
-  "main.js": "/random-quote/static/js/main.8baa456d.chunk.js",
-  "main.js.map": "/random-quote/static/js/main.8baa456d.chunk.js.map",
-  "static/js/1.da07f990.chunk.js": "/random-quote/static/js/1.da07f990.chunk.js",
-  "static/js/1.da07f990.chunk.js.map": "/random-quote/static/js/1.da07f990.chunk.js.map",
-  "runtime~main.js": "/random-quote/static/js/runtime~main.ae265bfa.js",
-  "runtime~main.js.map": "/random-quote/static/js/runtime~main.ae265bfa.js.map",
-  "static/css/main.184db483.chunk.css.map": "/random-quote/static/css/main.184db483.chunk.css.map",
-  "index.html": "/random-quote/index.html",
-  "precache-manifest.75c787372bed58e492a6a5b7293a9ba8.js": "/random-quote/precache-manifest.75c787372bed58e492a6a5b7293a9ba8.js",
-  "service-worker.js": "/random-quote/service-worker.js"
+  "main.css": "/fitness-timer/static/css/main.184db483.chunk.css",
+  "main.js": "/fitness-timer/static/js/main.8baa456d.chunk.js",
+  "main.js.map": "/fitness-timer/static/js/main.8baa456d.chunk.js.map",
+  "static/js/1.da07f990.chunk.js": "/fitness-timer/static/js/1.da07f990.chunk.js",
+  "static/js/1.da07f990.chunk.js.map": "/fitness-timer/static/js/1.da07f990.chunk.js.map",
+  "runtime~main.js": "/fitness-timer/static/js/runtime~main.a1862d29.js",
+  "runtime~main.js.map": "/fitness-timer/static/js/runtime~main.a1862d29.js.map",
+  "static/css/main.184db483.chunk.css.map": "/fitness-timer/static/css/main.184db483.chunk.css.map",
+  "index.html": "/fitness-timer/index.html",
+  "precache-manifest.c68dfac0f830423795c421bb2c1a7130.js": "/fitness-timer/precache-manifest.c68dfac0f830423795c421bb2c1a7130.js",
+  "service-worker.js": "/fitness-timer/service-worker.js"
 }
